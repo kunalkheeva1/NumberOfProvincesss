@@ -22,7 +22,7 @@ public class NumberOfProvinces {
         // and mark all the elements not visited in it initially
         int[] visited = new int[v];
         for(int i =0; i<v; i++){
-            visited[i] =1;
+            visited[i] =0;
         }
         int count =0;
         //increase the count after every other depth first search
